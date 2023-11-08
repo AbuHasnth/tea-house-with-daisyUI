@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisy ui and tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- manrope googe font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
+<!-- custom tailwind color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            
+          }
+        }
+      }
+    }
+  </script>
+  <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/13796acdd0.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto ">
+        <div class="hero bg-[#FFF]">
+            <div class="hero-content flex-col lg:flex-row">
+              
+              <div>
+                <h1 class="text-7xl font-extrabold">
+                    It's good <br> 
+                    tea time at The <br> 
+                    Tea House</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+              <div>
+                <img src="/images/banner.png" class="max-w-sm " />
+              <!-- ratings -->
+            <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white w-60">
+                <div>
+                    <i class="fa-regular fa-star bg-amber-300 text-3xl"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold">5.00</h2>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+            </div>
+              </div>
+            </div>
+            
+          </div>
+
+
+    </header>
+    <main></main>
+    <footer></footer>
+    
+</body>
+</html>
